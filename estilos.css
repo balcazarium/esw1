@@ -1,0 +1,59 @@
+/* --------------- HEADER ----------------------*/
+.contenedor-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#333;
+    text-align: center;  
+    width: 30%;
+}
+
+.menu{
+    display: flex;
+    width:50%;
+    justify-content: center;
+}
+
+.menu-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+/* -------------- CONTENIDO --------------------*/
+main{
+    display: flex;
+}
+section{
+    padding: 3rem;
+    height: 80vh;
+    width: 75%;
+}
+
+article{
+
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside{
+    background-color: rgba(255, 127, 80, 0.472);
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 25%;
+}
