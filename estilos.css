@@ -1,3 +1,10 @@
+/* ----------- FONTS ---------- */
+@font-face {
+    font-family: "ChrisMaster";
+    src: url(chrismaster/chrisMaster.ttf);
+}
+
+
 /* --------------- HEADER ----------------------*/
 .contenedor-header{
     display:flex;
@@ -9,10 +16,11 @@
 
 .logo{
     font-size: 3rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bangers', cursive;
     color:#333;
     text-align: center;  
     width: 30%;
+
 }
 
 .menu{
@@ -44,7 +52,7 @@ article{
 }
 
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
 }
 
@@ -80,3 +88,4 @@ footer{
     font-size: 2.5rem;
     margin-left:1rem;
 }
+
